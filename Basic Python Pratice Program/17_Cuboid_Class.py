@@ -27,7 +27,7 @@ class cubiod:
     def volume(self,length,width,height):
         return length*width*height
     def total_surface_area(self,length,width,height):
-        return (2*length*width) + (2*length*height) + (2*height*width)
+        return 2 * ( (length*width) + (length*height) + (height*width) )
 
 length= float(input("Enter Length  of Cubiod : "))
 width= float(input("Enter Width  of Cubiod : "))
